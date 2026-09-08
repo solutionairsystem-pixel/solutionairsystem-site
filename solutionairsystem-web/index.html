@@ -424,7 +424,7 @@
         </div>
 
 
-        <form class="contact-form" action="mailto:solutionairsystem@gmail.com" method="post" enctype="text/plain">
+        <form class="contact-form" id="contactForm">
 
           <input
             type="text"
@@ -454,9 +454,11 @@
             rows="5"
           ></textarea>
 
-          <button type="submit" class="btn btn-primary">
+          <button type="submit" class="btn btn-primary" id="contactSubmitBtn">
             Solicitar servicio →
           </button>
+
+          <p id="contactFormMsg" style="margin-top:12px; font-size:0.95em;"></p>
 
         </form>
 
