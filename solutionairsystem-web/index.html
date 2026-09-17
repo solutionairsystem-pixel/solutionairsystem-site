@@ -440,6 +440,11 @@
             required
           >
 
+          <label style="display:flex; align-items:flex-start; gap:8px; font-size:0.85em; margin:8px 0 16px; color:#555;">
+            <input type="checkbox" name="smsConsent" required style="margin-top:3px;">
+            <span>Acepto recibir mensajes de texto (SMS) de Solution Air System en el número de teléfono provisto arriba, relacionados con mi solicitud de servicio, incluyendo confirmaciones de citas y avisos del técnico. Pueden aplicar tarifas de mensajes y datos. Ver <a href="/privacy-policy.html" target="_blank">Política de Privacidad</a> y <a href="/terms.html" target="_blank">Términos y Condiciones</a>.</span>
+          </label>
+
           <select name="servicio">
             <option value="">Seleccione un servicio</option>
             <option>Mantenimiento</option>
@@ -453,11 +458,6 @@
             placeholder="¿Cómo podemos ayudarte?"
             rows="5"
           ></textarea>
-
-          <label style="display:flex; align-items:flex-start; gap:8px; font-size:0.85em; margin:12px 0; color:#555;">
-            <input type="checkbox" name="smsConsent" required style="margin-top:3px;">
-            <span>Acepto recibir mensajes de texto (SMS) de Solution Air System relacionados con mi solicitud de servicio, incluyendo confirmaciones de citas y avisos del técnico. Pueden aplicar tarifas de mensajes y datos. Ver <a href="/privacy-policy.html" target="_blank">Política de Privacidad</a> y <a href="/terms.html" target="_blank">Términos y Condiciones</a>.</span>
-          </label>
 
           <button type="submit" class="btn btn-primary" id="contactSubmitBtn">
             Solicitar servicio →
